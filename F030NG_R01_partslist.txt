@@ -1,8 +1,4 @@
-Partlist
-
-Exported from F030_R01.sch at 31.10.2019 12:09
-
-EAGLE Version 9.2.1 Copyright (c) 1988-2018 Autodesk, Inc.
+Exported from F030_R01.sch at 31.10.2019 14:46
 
 Assembly variant: 
 
@@ -126,10 +122,7 @@ C115     100n               C-EUC0805                      C0805              rc
 C116     100n               C-EUC0805                      C0805              rcl          13
 C117     100n               C-EUC0805                      C0805              rcl          13
 C118     100n               C-EUC0805                      C0805              rcl          15
-C119     100n               C-EUC0805                      C0805              rcl          16
-C120     100n               C-EUC0805                      C0805              rcl          16
 C121     1u                 C-EUC0805                      C0805              rcl          16
-C122     100n               C-EUC0805                      C0805              rcl          16
 C123     47p                C-EUC0805                      C0805              rcl          16
 C124     1u                 C-EUC0805                      C0805              rcl          16
 C125     47p                C-EUC0805                      C0805              rcl          16
@@ -208,7 +201,7 @@ C198     10n                C-EUC0805                      C0805              rc
 C199     10u                CPOL-EUE2-5                    E2-5               rcl          22
 C200     330u lowESR        CPOL-EUE3.5-10                 E3,5-10            rcl          22
 C201     330u lowESR        CPOL-EUE3.5-10                 E3,5-10            rcl          22
-C202     22uF T             CPOL-EUSMCC                    SMC_C              rcl          22
+C202     22uF               CPOL-EUSMCC                    SMC_C              rcl          22
 C203     100u lowESR        CPOL-EUE2.5-6                  E2,5-6             rcl          22
 C204     100u lowESR        CPOL-EUE2.5-6                  E2,5-6             rcl          22
 C205     1u                 C-EUC0805                      C0805              rcl          22
@@ -266,6 +259,7 @@ J19      SPKR               3.5MM_SOCKET3P                 JY039-3P           F0
 J20      POWER_CONN-8P      POWER_CONN-8P                  MOLEX_09-65-2088   F030NG       22
 J21      TE_171825-4        FDD_CONN_PWR                   TE_171825-4        F030NG       22
 J22                         JUMPER-2P                      PH_1X02            F030NG       8
+J23      FAN_PWR            22-23-2021                     22-23-2021         con-molex    22
 L1       1uH                L-1210                         L1210              F030NG       1
 L2       1uH                L-1210                         L1210              F030NG       1
 L3       1uH                L-1210                         L1210              F030NG       1
@@ -437,10 +431,7 @@ R105     4k7                R-EU_R0805                     R0805              rc
 R106     2k2                R-EU_R0805                     R0805              rcl          13
 R107     1k                 R-EU_R0805                     R0805              rcl          13
 R108     1k                 R-EU_R0805                     R0805              rcl          14
-R109     10                 R-EU_R0805                     R0805              rcl          16
-R110     10                 R-EU_R0805                     R0805              rcl          16
-R111     50                 R-EU_R0805                     R0805              rcl          16
-R112     50                 R-EU_R0805                     R0805              rcl          16
+R111     220                R-EU_R0805                     R0805              rcl          16
 R113     22                 R-EU_R0805                     R0805              rcl          16
 R114     22                 R-EU_R0805                     R0805              rcl          16
 R115     22                 R-EU_R0805                     R0805              rcl          16
@@ -552,4 +543,3 @@ U45      MAX743CPE          MAX743CPE-SO                   SOIC16             F0
 U46      TC2117-XX          TC2117-XX                      SOT-223            F030NG       22
 U47      74LS08             7408                           SO14MY             74xx-eu      1
 U48      74LS00             74LS00D                        SO14MY             74xx-eu      16
-X1       FAN_PWR            22-23-2021                     22-23-2021         con-molex    22

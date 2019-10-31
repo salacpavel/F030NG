@@ -1,0 +1,67 @@
+FALCON 030 V1.0 - U62 - May 30, 1997
+
+*IDENTIFICATION
+	F30_U62;
+*TYPE
+   GAL16V8;
+*PINS
+  
+	/VPA	=  2,
+	/DS	=  3,
+	QA	=  4,
+	QB	=  5,
+	QC	=  6,
+	QD	=  7,
+	HIGHZ	=  8,
+	SIZ0	=  9,
+	
+	SIZ1.t	= 12,
+	A0.t	= 13,
+	/Z3A.t  = 14,
+	CIORW.t	= 15,
+	P16.t	= 16,
+	/VMA.t	= 17,
+	/LDS.t	= 18,
+	/UDS.t	= 19;
+	
+
+
+*BOOLEAN-EQUATIONS
+
+ UDS.e        = /HIGHZ;
+ UDS          = DS * /A0
+              + DS * CIORW;
+
+ LDS.e        = /HIGHZ;
+ LDS          = DS * A0
+              + DS * /SIZ0
+              + DS * SIZ1
+              + DS * CIORW;
+
+ VMA.e        = VCC;
+ VMA          = VPA;
+
+ P16.e        = VCC;
+ P16          = VPA * QA * /QC
+              + VPA * QB * P16
+              + DS * /HIGHZ * P16
+              + LDS * HIGHZ * P16
+              + UDS * HIGHZ * P16
+              + VPA * QB * /QC * QD;
+
+ CIORW.e      = GND;
+
+ Z3A.e        = VCC;
+ Z3A          = VPA * /QB * P16 * QC
+              + DS * Z3A * /HIGHZ
+              + LDS * Z3A * HIGHZ
+              + UDS * Z3A * HIGHZ;
+
+ A0.e         = HIGHZ;
+ A0           = /UDS;
+
+ SIZ1.e       = GND;
+
+
+
+*END

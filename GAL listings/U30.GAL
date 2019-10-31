@@ -1,0 +1,66 @@
+FALCON 030 V1.0 - U63 - May 30, 1997
+
+*IDENTIFICATION
+	F30_U63;
+*TYPE
+	GAL16V8;
+*PINS
+
+	/DSK0	=  2,
+	/Z3A	=  3,
+	HIGHZ	=  4,
+	EDSP	=  5,
+	DLYAS	=  6,
+	/BERR	=  7,
+	/DTK	=  8,
+	/AS	=  9,
+	
+	P12.r	= 12,
+	/EDTK.t	= 13,
+	P14.t	= 14,
+	/EBERR.t= 15,
+	P16.r	= 16,
+	/EXP.t	= 17,
+	P18.t	= 18,
+	/DSK1.t	= 19;
+	
+
+
+*BOOLEAN-EQUATIONS	
+
+ DSK1.e	= P18;
+ DSK1	= AS;
+
+ P18.e  = VCC;
+ P18    = /HIGHZ * AS * Z3A
+        + /HIGHZ * AS * DTK * DLYAS * /EDSP * /EXP
+        + /HIGHZ * AS * EDTK * DLYAS;
+
+
+ EXP.e  = GND;
+
+
+ P16    = AS * DLYAS;
+ 
+ P12    = AS * P16 * BERR * /EDSP * /EXP
+        + AS * P12;
+
+ EBERR.e= AS * DLYAS * /DSK0 * /EDTK * /EDSP * /EXP;
+ EBERR  = BERR * DTK
+        + /DSK0 * /EDTK * P12
+        + EBERR * AS;
+
+
+ P14.e  = VCC;
+ P14    = HIGHZ * AS * Z3A
+        + HIGHZ * AS * DTK * DLYAS * /EDSP * /EXP
+        + HIGHZ * AS * DSK0
+        + HIGHZ * AS * DSK1;
+
+ EDTK.e = P14;
+ EDTK   = AS;
+
+ 
+
+
+*END

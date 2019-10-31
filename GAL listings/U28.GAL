@@ -1,0 +1,37 @@
+30.05.97  04:12:02  1569 Bytes
+
+%ID
+U67
+   
+%TYP
+   GAL16V8
+%PINS
+     CLK   FC2    FC1    FC0    A19    A18    A17    A16    /VPA
+     OE    /DSP   BCLK   QD     QC     QB     QA     CLK    /AVEC
+%LOGIC
+
+ AVEC.e       = VCC;
+ AVEC.e       = FC2 * FC1 * FC0 * A19 * A18 * A17 * A16 * VPA;
+
+ CLK.e        = VCC;
+ CLK          = /BCLK;
+
+ QA          <- /QB * /QC
+              + QB * QC;
+
+ QB          <- QA * /QC
+              + /QA * QB;
+
+ QC          <- QA * QC
+              + /QA * QB
+              + /QA * QB * /VPA
+              + /QA * QB * /QD;
+
+ QD          <- /VPA;
+
+ BCLK.e       = GND;
+
+ DSP.e        = VCC;
+ DSP          = FC2 * FC1 * /FC0 * A19 * A18 * A17 * A16
+              + FC2 * /FC1 * FC0 * A19 * A18 * A17 * A16;
+%END

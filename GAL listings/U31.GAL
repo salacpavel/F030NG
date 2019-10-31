@@ -1,0 +1,56 @@
+FALCON 030 V1.0 - U68 - May 30, 1997
+
+*IDENTIFICATION
+	F30_U68;
+*TYPE
+	GAL16V8;
+*PINS
+
+	/BGK		=  2,
+	/AS		=  3,
+	/BG30		=  4,
+	AXDSP		=  5,
+	/DSP		=  6,
+	A5		=  7,
+	A4		=  8,
+	A3		=  9,
+	
+	HIGHZ.t		= 19,
+	EDSP.t		= 18,
+	DLYAS.r		= 17,
+	DL2AS.r		= 16,
+	DL1AS.r		= 15,
+	/DSPDS.t	= 14,
+	/BMODE.t	= 13,
+	/CPUBG.t	= 12;
+	  
+
+*BOOLEAN-EQUATIONS
+
+
+ HIGHZ.e    = VCC;
+ HIGHZ      = CPUBG
+            + BGK * HIGHZ
+            + AS * HIGHZ;
+
+ EDSP.e     = VCC;
+ EDSP       = AS * AXDSP * DSP * /A5 * /A4 * /A3;
+
+ DLYAS      = AS * DL1AS;
+
+ DL2AS      = DL1AS;
+
+ DL1AS      = AS;
+
+ DSPDS.e    = VCC;
+ DSPDS      = AS * DSP * DL1AS * /A5 * /A4 * /A3;
+            
+
+ BMODE.e    = /HIGHZ;
+ BMODE	    = /HIGHZ;
+
+ CPUBG.e    = VCC;
+ CPUBG      = BG30 * /AS * /DL2AS;
+
+
+*END

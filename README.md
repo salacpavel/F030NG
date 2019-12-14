@@ -24,6 +24,9 @@ It aims to fix outstanding stability issues of original Falcon and introduces nu
 
 The F030 will eventually be available as bare/half-way/fully assembled mainboards and add-on cards through centuriontech.eu web shop, or available as a set of instruction, how-to and manufacturing data for DIY enthusiasts.
 
+## Discussion platform:
+Now you can discuss about F030NG on Discord: https://discord.gg/jRaXBVc
+
 ## Documentation:
 Want to get started yourself? Read the [GitHub Wiki](https://github.com/salacpavel/F030NG/wiki)
 

@@ -7,8 +7,8 @@ It aims to fix outstanding stability issues of original Falcon and introduces nu
 - IDE port is relocated to allow simple use of cheap and ubiquitous CF-IDE adaptors, with CF conveniently accessible from the outside of the computer. Internal PATA laptop HDD is still an option
 - External SCSI replaced with standard **internal 50 pin SCSI interface**. External port can be added with simple breakout board
 - Removes two STE jagpad ports to save some space and simplify motherboard design
-~~- Expands internal expansion connector for additional pins to allow more different devices to be build, such as test and diagnostics cart (TBD), while still maintaining full compatibility with CT60(e) accelerator~~ no longer necessary, see below
-~~- Removes legacy cartridge interface due to general unavailability of replacement edge board connectors~~ as I have found suitbale replacement, cartridge port in some form will appear on rev.B board
+- ~~Expands internal expansion connector for additional pins to allow more different devices to be build, such as test and diagnostics cart (TBD), while still maintaining full compatibility with CT60(e) accelerator~~ no longer necessary, see below
+- ~~Removes legacy cartridge interface due to general unavailability of replacement edge board connectors~~ as I have found suitbale replacement, cartridge port in some form will appear on rev.B board
 - **Newly designed TV-out circuit** is now based on more recent AD725 chip, providing higher quality output. S-Video output is now supported as well.
 - Completely remade board power distribution to avoid need for most of leaky electrolytic capacitors. The rest of them is radial now, due to space and obsolescence concerns.
 - **HiFi audio** components used for audio-in and audio-out

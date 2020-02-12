@@ -8680,9 +8680,9 @@ body 5.3 mm/JEDEC MS-012AA</description>
 <wire x1="-1.4224" y1="0.6604" x2="-0.6576" y2="0.6604" width="0.254" layer="21"/>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.254" width="0.254" layer="21"/>
 <wire x1="0.6326" y1="0.6604" x2="1.4224" y2="0.6604" width="0.254" layer="21"/>
-<smd name="1" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="3" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="0" y="1.1" dx="0.7" dy="0.9" layer="1"/>
+<smd name="3" x="0.95" y="-1.1" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="-0.95" y="-1.1" dx="0.7" dy="0.9" layer="1"/>
 <text x="-1.905" y="-3.4925" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
@@ -8899,7 +8899,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/1501_06.pdf</description>
 <wire x1="-6.604" y1="-11.684" x2="-5.334" y2="-12.954" width="0.254" layer="21" curve="90"/>
 <wire x1="6.604" y1="-11.684" x2="5.334" y2="-12.954" width="0.254" layer="21" curve="-90"/>
 </package>
-<package name="TSOP16">
+<package name="TSSOP16">
 <description>&lt;b&gt;Shrink Small Outline Plastic 16&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-2.5146" y1="-2.2" x2="2.5146" y2="-2.2" width="0.254" layer="21"/>
 <wire x1="2.5146" y1="2.2" x2="2.5146" y2="-2.2" width="0.254" layer="21"/>
@@ -9381,7 +9381,7 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-13.589" y1="-5.715" x2="-13.081" y2="-5.207" layer="51"/>
 <rectangle x1="-13.5128" y1="-5.207" x2="-13.1572" y2="-4.445" layer="51"/>
 </package>
-<package name="TSOP44">
+<package name="TSSOP44">
 <description>&lt;B&gt;Thin Small Outline Plastic Package&lt;/b&gt;&lt;p&gt;
 TS040</description>
 <wire x1="9.195" y1="-5.749" x2="-9.195" y2="-5.749" width="0.254" layer="21"/>
@@ -12461,8 +12461,8 @@ Horizontal Shielded Mini DIN, 4 pins</description>
 <wire x1="21.59" y1="-2.54" x2="21.59" y2="2.54" width="0.254" layer="22"/>
 <wire x1="-20.32" y1="-2.54" x2="21.59" y2="-2.54" width="0.254" layer="22"/>
 <wire x1="21.59" y1="2.54" x2="-21.59" y2="2.54" width="0.254" layer="22"/>
-<wire x1="-21.59" y1="-2.54" x2="-21.59" y2="-1.27" width="0.4064" layer="22"/>
-<wire x1="-21.59" y1="-2.54" x2="-20.32" y2="-2.54" width="0.4064" layer="22"/>
+<wire x1="-21.59" y1="-2.54" x2="-21.59" y2="-1.27" width="0.6604" layer="22"/>
+<wire x1="-21.59" y1="-2.54" x2="-20.32" y2="-2.54" width="0.6604" layer="22"/>
 </package>
 <package name="PH_2X13_2MM">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -13562,6 +13562,79 @@ Horizontal Shielded Mini DIN, 4 pins</description>
 <rectangle x1="2.145" y1="2.6" x2="2.405" y2="3.9" layer="51"/>
 <smd name="9" x="2.275" y="3.175" dx="0.3556" dy="1.7272" layer="1"/>
 <smd name="10" x="1.625" y="3.175" dx="0.3556" dy="1.7272" layer="1"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;b&gt;SOT-23-5 Plastic Small Outline (DBV)&lt;/b&gt; -  5-Lead Package&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.ti.com/lit/ds/symlink/tps709.pdf&lt;/a&gt;</description>
+<smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
+<wire x1="1.5" y1="-0.8" x2="1.5" y2="0.8" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.254" layer="21"/>
+<rectangle x1="-0.6" y1="-0.6" x2="0.6" y2="0.6" layer="35"/>
+<wire x1="-1.43" y1="-0.8" x2="1.43" y2="-0.8" width="0.254" layer="51"/>
+<wire x1="-1.43" y1="0.8" x2="1.43" y2="0.8" width="0.254" layer="51"/>
+<text x="-1.917" y="1.071" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-1.917" y="-0.66" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<rectangle x1="-1.15" y1="-1.4" x2="-0.75" y2="-0.8" layer="51"/>
+<rectangle x1="-0.2" y1="-1.4" x2="0.2" y2="-0.8" layer="51"/>
+<rectangle x1="0.75" y1="-1.4" x2="1.15" y2="-0.8" layer="51"/>
+<rectangle x1="-1.15" y1="0.8" x2="-0.75" y2="1.4" layer="51"/>
+<rectangle x1="0.75" y1="0.8" x2="1.15" y2="1.4" layer="51"/>
+<wire x1="-0.414" y1="0.8" x2="0.414" y2="0.8" width="0.254" layer="21"/>
+</package>
+<package name="TSSOP20">
+<description>&lt;b&gt;Shrink Small Outline Plastic 16&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-3.1646" y1="-2.2" x2="3.1646" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="3.1646" y1="2.2" x2="3.1646" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="3.1646" y1="2.2" x2="-3.1646" y2="2.2" width="0.254" layer="21"/>
+<wire x1="-3.1646" y1="-2.2" x2="-3.1646" y2="2.2" width="0.254" layer="21"/>
+<circle x="-2.2375" y="-1.27" radius="0.4" width="0.2" layer="21"/>
+<smd name="1" x="-2.925" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="2" x="-2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="3" x="-1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="4" x="-0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="5" x="-0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="6" x="0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="7" x="0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="8" x="1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="11" x="2.925" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<text x="-3.65125" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" ratio="10" rot="R180" align="center">&gt;VALUE</text>
+<rectangle x1="-3.0266" y1="-3.121" x2="-2.8234" y2="-2.2828" layer="51"/>
+<rectangle x1="-2.3766" y1="-3.121" x2="-2.1734" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.7266" y1="-3.121" x2="-1.5234" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.0766" y1="-3.121" x2="-0.8734" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.4266" y1="-3.121" x2="-0.2234" y2="-2.2828" layer="51"/>
+<rectangle x1="0.2234" y1="-3.121" x2="0.4266" y2="-2.2828" layer="51"/>
+<rectangle x1="0.8734" y1="-3.121" x2="1.0766" y2="-2.2828" layer="51"/>
+<rectangle x1="1.5234" y1="-3.121" x2="1.7266" y2="-2.2828" layer="51"/>
+<rectangle x1="2.8234" y1="2.2828" x2="3.0266" y2="3.121" layer="51"/>
+<rectangle x1="2.1734" y1="-3.121" x2="2.3766" y2="-2.2828" layer="51"/>
+<rectangle x1="2.8234" y1="-3.121" x2="3.0266" y2="-2.2828" layer="51"/>
+<smd name="9" x="2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="10" x="2.925" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="12" x="2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="13" x="1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="14" x="0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="15" x="0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="16" x="-0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="17" x="-0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="18" x="-1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="19" x="-2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="20" x="-2.925" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<rectangle x1="2.1734" y1="2.2828" x2="2.3766" y2="3.121" layer="51"/>
+<rectangle x1="1.5234" y1="2.2828" x2="1.7266" y2="3.121" layer="51"/>
+<rectangle x1="0.8734" y1="2.2828" x2="1.0766" y2="3.121" layer="51"/>
+<rectangle x1="0.2234" y1="2.2828" x2="0.4266" y2="3.121" layer="51"/>
+<rectangle x1="-0.4266" y1="2.2828" x2="-0.2234" y2="3.121" layer="51"/>
+<rectangle x1="-1.0766" y1="2.2828" x2="-0.8734" y2="3.121" layer="51"/>
+<rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
+<rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
+<rectangle x1="-3.0266" y1="2.2828" x2="-2.8234" y2="3.121" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -16198,7 +16271,8 @@ Horizontal Shielded Mini DIN, 4 pins</description>
 <text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="oc" function="dot" rot="R180"/>
+<pin name="O" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<circle x="6.35" y="0" radius="1.27" width="0.4064" layer="94"/>
 </symbol>
 <symbol name="SCSI_BUS_TERM">
 <pin name="R1" x="10.16" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
@@ -16322,7 +16396,7 @@ Horizontal Shielded Mini DIN, 4 pins</description>
 <wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="2PWR_1GND">
+<symbol name="2VCC_1GND">
 <text x="7.747" y="3.937" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.334" y="-0.762" size="1.27" layer="95" align="top-left">GND</text>
 <text x="-2.794" y="1.905" size="1.27" layer="95" align="top-right">+12V</text>
@@ -19058,7 +19132,7 @@ Horizontal Shielded Mini DIN, 4 pins</description>
 <wire x1="-1.016" y1="-0.9525" x2="1.016" y2="-0.9525" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="-0.4445" x2="1.016" y2="-0.4445" width="0.254" layer="94"/>
 </symbol>
-<symbol name="2GND">
+<symbol name="0VCC_2GND">
 <pin name="GND2" x="2.54" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
 <text x="-1.27" y="2.032" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <pin name="GND1" x="2.54" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
@@ -23238,7 +23312,7 @@ Surface Mount Resistor Network, dual rezistor bus termination type</description>
 <gate name="B" symbol="1488" x="20.32" y="-12.7" swaplevel="1"/>
 <gate name="C" symbol="1488" x="48.26" y="0" swaplevel="1"/>
 <gate name="D" symbol="1488" x="48.26" y="-12.7" swaplevel="1"/>
-<gate name="P" symbol="2PWR_1GND" x="-7.62" y="-6.35" addlevel="request"/>
+<gate name="P" symbol="2VCC_1GND" x="-7.62" y="-6.35" addlevel="request"/>
 </gates>
 <devices>
 <device name="-N" package="DIL14">
@@ -23747,6 +23821,33 @@ Source: YH-55-10.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
+<device name="PWR" package="TSSOP20">
+<connects>
+<connect gate="A" pin="A1" pad="2"/>
+<connect gate="A" pin="A2" pad="4"/>
+<connect gate="A" pin="A3" pad="6"/>
+<connect gate="A" pin="A4" pad="8"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="Y1" pad="18"/>
+<connect gate="A" pin="Y2" pad="16"/>
+<connect gate="A" pin="Y3" pad="14"/>
+<connect gate="A" pin="Y4" pad="12"/>
+<connect gate="B" pin="A1" pad="11"/>
+<connect gate="B" pin="A2" pad="13"/>
+<connect gate="B" pin="A3" pad="15"/>
+<connect gate="B" pin="A4" pad="17"/>
+<connect gate="B" pin="G" pad="19"/>
+<connect gate="B" pin="Y1" pad="9"/>
+<connect gate="B" pin="Y2" pad="7"/>
+<connect gate="B" pin="Y3" pad="5"/>
+<connect gate="B" pin="Y4" pad="3"/>
+<connect gate="P" pin="GND" pad="10"/>
+<connect gate="P" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="JAGPAD_INTERFACE" prefix="J">
@@ -24175,6 +24276,33 @@ Source: YH-55-10.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
+<device name="PWR" package="TSSOP20">
+<connects>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="A3" pad="4"/>
+<connect gate="G$1" pin="A4" pad="5"/>
+<connect gate="G$1" pin="A5" pad="6"/>
+<connect gate="G$1" pin="A6" pad="7"/>
+<connect gate="G$1" pin="A7" pad="8"/>
+<connect gate="G$1" pin="A8" pad="9"/>
+<connect gate="G$1" pin="B1" pad="18"/>
+<connect gate="G$1" pin="B2" pad="17"/>
+<connect gate="G$1" pin="B3" pad="16"/>
+<connect gate="G$1" pin="B4" pad="15"/>
+<connect gate="G$1" pin="B5" pad="14"/>
+<connect gate="G$1" pin="B6" pad="13"/>
+<connect gate="G$1" pin="B7" pad="12"/>
+<connect gate="G$1" pin="B8" pad="11"/>
+<connect gate="G$1" pin="DIR" pad="1"/>
+<connect gate="G$1" pin="G" pad="19"/>
+<connect gate="P" pin="GND" pad="10"/>
+<connect gate="P" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="74*574" prefix="U">
@@ -24212,6 +24340,33 @@ Source: YH-55-10.pdf</description>
 <technology name="ACT"/>
 <technology name="HC"/>
 <technology name="HCT"/>
+</technologies>
+</device>
+<device name="PWR" package="TSSOP20">
+<connects>
+<connect gate="G$1" pin="1D" pad="2"/>
+<connect gate="G$1" pin="1Q" pad="19"/>
+<connect gate="G$1" pin="2D" pad="3"/>
+<connect gate="G$1" pin="2Q" pad="18"/>
+<connect gate="G$1" pin="3D" pad="4"/>
+<connect gate="G$1" pin="3Q" pad="17"/>
+<connect gate="G$1" pin="4D" pad="5"/>
+<connect gate="G$1" pin="4Q" pad="16"/>
+<connect gate="G$1" pin="5D" pad="6"/>
+<connect gate="G$1" pin="5Q" pad="15"/>
+<connect gate="G$1" pin="6D" pad="7"/>
+<connect gate="G$1" pin="6Q" pad="14"/>
+<connect gate="G$1" pin="7D" pad="8"/>
+<connect gate="G$1" pin="7Q" pad="13"/>
+<connect gate="G$1" pin="8D" pad="9"/>
+<connect gate="G$1" pin="8Q" pad="12"/>
+<connect gate="G$1" pin="CLK" pad="11"/>
+<connect gate="G$1" pin="OC" pad="1"/>
+<connect gate="P" pin="GND" pad="10"/>
+<connect gate="P" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -24372,7 +24527,7 @@ MOLEX 09-65-2088</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="FTBJ" package="TSOP16">
+<device name="FTBJ" package="TSSOP16">
 <connects>
 <connect gate="G$1" pin="!A!/B" pad="1"/>
 <connect gate="G$1" pin="1A" pad="2"/>
@@ -25696,6 +25851,27 @@ EPROM-Programmable Clock Generator
 <technology name="LS"/>
 </technologies>
 </device>
+<device name="DBR" package="SSOP14">
+<connects>
+<connect gate="A" pin="I" pad="1"/>
+<connect gate="A" pin="O" pad="2"/>
+<connect gate="B" pin="I" pad="3"/>
+<connect gate="B" pin="O" pad="4"/>
+<connect gate="C" pin="I" pad="5"/>
+<connect gate="C" pin="O" pad="6"/>
+<connect gate="D" pin="I" pad="9"/>
+<connect gate="D" pin="O" pad="8"/>
+<connect gate="E" pin="I" pad="11"/>
+<connect gate="E" pin="O" pad="10"/>
+<connect gate="F" pin="I" pad="13"/>
+<connect gate="F" pin="O" pad="12"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R-ARRAY_4R-THT" prefix="P" uservalue="yes">
@@ -25821,7 +25997,7 @@ EPROM-Programmable Clock Generator
 <description>&lt;B&gt;LINE EMI SURPRESSOR&lt;/B&gt;&lt;p&gt;MURATA NFM41C series</description>
 <gates>
 <gate name="A" symbol="LCL" x="0" y="0"/>
-<gate name="G" symbol="2GND" x="43.18" y="-2.54" addlevel="must"/>
+<gate name="G" symbol="0VCC_2GND" x="43.18" y="-2.54" addlevel="must"/>
 </gates>
 <devices>
 <device name="1806" package="NFM41C">
@@ -26227,6 +26403,26 @@ Source: www.vanlong.com</description>
 <connect gate="G$1" pin="2" pad="P2"/>
 <connect gate="G$1" pin="3" pad="P3"/>
 <connect gate="G$1" pin="4" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74LVC1G04" prefix="U">
+<description>SN74LVC1G04 Single Inverter Gate</description>
+<gates>
+<gate name="G$1" symbol="7405" x="0" y="0"/>
+<gate name="P" symbol="1VCC_1GND" x="-5.08" y="15.24" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="I" pad="2"/>
+<connect gate="G$1" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -18,7 +18,7 @@ It aims to fix outstanding stability issues of original Falcon and introduces nu
 - Onboard implementation of NetUSB adds **one 10-mbit LAN port and two USB ports** (with number of USB devices currently supported)
 - **Fully redesigned base clock system**. Whole universe of overclocking options is now available out of the box.  In example you can double the system clock while keeping CPU base clock, bump the CPU base clock in 8 steps, clock FPU independently, etc. Hard to obtain 32.098488MHz base clock crystal in no longer needed, unless you require 100% compatibility with clock-dependant graphics demos.
 - Smaller motherboard footprint, with only 325.6x225mm outer dimensions
-- Four-layer design compared to original six-layer Falcon mainboard for a lower production cost and easier manufacturing
+- Four-layer design compared to original six-layer Falcon mainboard for a lower production cost (around 20USD/pc) and easier manufacturing
 - Optimized track routing to avoid infamous Falcon stability issue and need for different clock patches.
 - Many more smaller fixes and changes, too many to name them all.
 

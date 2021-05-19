@@ -1,0 +1,525 @@
+Part     Value                  Device                         Package          Library        Sheet
+
+BAT1     CR2032                 CR2032-T                       CH29-2032        F030NG         8
+C1       68p                    C-EUC0805                      C0805            rcl            1
+C2       1u                     C-EUC0805                      C0805            rcl            15
+C3       33p                    C-EUC0805                      C0805            rcl            1
+C4       33p                    C-EUC0805                      C0805            rcl            1
+C5       100p                   C-EUC0805                      C0805            rcl            1
+C6       100n                   C-EUC0805                      C0805            rcl            1
+C7       100n                   C-EUC0805                      C0805            rcl            1
+C8       100n                   C-EUC0805                      C0805            rcl            1
+C9       100n                   C-EUC0805                      C0805            rcl            1
+C10      100n                   C-EUC0805                      C0805            rcl            1
+C11      100n                   C-EUC0805                      C0805            rcl            1
+C12      100n                   C-EUC0805                      C0805            rcl            1
+C13      100n                   C-EUC0805                      C0805            rcl            1
+C14      100n                   C-EUC0805                      C0805            rcl            2
+C15      100n                   C-EUC0805                      C0805            rcl            2
+C16      100n                   C-EUC0805                      C0805            rcl            2
+C17      100n                   C-EUC0805                      C0805            rcl            2
+C18      100n                   C-EUC0805                      C0805            rcl            2
+C19      100n                   C-EUC0805                      C0805            rcl            2
+C20      100n                   C-EUC0805                      C0805            rcl            2
+C21      100n                   C-EUC0805                      C0805            rcl            2
+C22      100n                   C-EUC0805                      C0805            rcl            2
+C23      100n                   C-EUC0805                      C0805            rcl            2
+C24      100n                   C-EUC0805                      C0805            rcl            2
+C25      100n                   C-EUC0805                      C0805            rcl            2
+C26      100n                   C-EUC0805                      C0805            rcl            2
+C27      100n                   C-EUC0805                      C0805            rcl            8
+C28      1u                     C-EUC0805                      C0805            rcl            2
+C29      10p                    C-EUC0805                      C0805            rcl            3
+C30      1u                     C-EUC0805                      C0805            rcl            3
+C31      10p                    C-EUC0805                      C0805            rcl            3
+C32      10p                    C-EUC0805                      C0805            rcl            3
+C33      10p                    C-EUC0805                      C0805            rcl            3
+C34      10p                    C-EUC0805                      C0805            rcl            3
+C35      10p                    C-EUC0805                      C0805            rcl            3
+C36      10p                    C-EUC0805                      C0805            rcl            3
+C37      68p                    C-EUC0805                      C0805            rcl            3
+C38      68p                    C-EUC0805                      C0805            rcl            3
+C39      68p                    C-EUC0805                      C0805            rcl            3
+C40      68p                    C-EUC0805                      C0805            rcl            3
+C41      68p                    C-EUC0805                      C0805            rcl            3
+C42      68p                    C-EUC0805                      C0805            rcl            3
+C43      47p                    C-EUC0805                      C0805            rcl            3
+C44      47p                    C-EUC0805                      C0805            rcl            3
+C45      47p                    C-EUC0805                      C0805            rcl            3
+C46      100u                   CPOL-EUE2.5-6                  E2,5-6           rcl            10
+C47      100n                   C-EUC0805                      C0805            rcl            3
+C48      100n                   C-EUC0805                      C0805            rcl            3
+C49      100u                   CPOL-EUE2.5-6                  E2,5-6           rcl            15
+C50      100n                   C-EUC0805                      C0805            rcl            3
+C51      100n                   C-EUC0805                      C0805            rcl            3
+C52      100n                   C-EUC0805                      C0805            rcl            3
+C53      100n                   C-EUC0805                      C0805            rcl            3
+C54      100n                   C-EUC0805                      C0805            rcl            3
+C55      100n                   C-EUC0805                      C0805            rcl            3
+C56      100n                   C-EUC0805                      C0805            rcl            3
+C57      100n                   C-EUC0805                      C0805            rcl            3
+C58      100n                   C-EUC0805                      C0805            rcl            3
+C59      100n                   C-EUC0805                      C0805            rcl            3
+C60      100n                   C-EUC0805                      C0805            rcl            3
+C61      100n                   C-EUC0805                      C0805            rcl            3
+C62      100n                   C-EUC0805                      C0805            rcl            3
+C63      100n                   C-EUC0805                      C0805            rcl            3
+C64      100n                   C-EUC0805                      C0805            rcl            3
+C65      100n                   C-EUC0805                      C0805            rcl            3
+C66      100n                   C-EUC0805                      C0805            rcl            3
+C67      100n                   C-EUC0805                      C0805            rcl            3
+C68      100n                   C-EUC0805                      C0805            rcl            4
+C69      100n                   C-EUC0805                      C0805            rcl            4
+C70      100n                   C-EUC0805                      C0805            rcl            4
+C71      100n                   C-EUC0805                      C0805            rcl            5
+C72      1u                     C-EUC0805                      C0805            rcl            22
+C73      100n                   C-EUC0805                      C0805            rcl            5
+C74      100n                   C-EUC0805                      C0805            rcl            5
+C75      100n                   C-EUC0805                      C0805            rcl            5
+C76      100n                   C-EUC0805                      C0805            rcl            5
+C77      100n                   C-EUC0805                      C0805            rcl            5
+C78      100n                   C-EUC0805                      C0805            rcl            5
+C79      100n                   C-EUC0805                      C0805            rcl            6
+C80      100n                   C-EUC0805                      C0805            rcl            6
+C81      100n                   C-EUC0805                      C0805            rcl            7
+C82      4u7                    CPOL-EUE2-5                    E2-5             rcl            8
+C83      10n                    C-EUC0805                      C0805            rcl            8
+C84      100n                   C-EUC0805                      C0805            rcl            8
+C85      22u                    CPOL-EUE2.5-6                  E2,5-6           rcl            8
+C86      100n                   C-EUC0805                      C0805            rcl            8
+C87      100n                   C-EUC0805                      C0805            rcl            22
+C88      100p                   C-EUC0805                      C0805            rcl            9
+C89      100p                   C-EUC0805                      C0805            rcl            9
+C90      100p                   C-EUC0805                      C0805            rcl            9
+C91      100p                   C-EUC0805                      C0805            rcl            9
+C92      100n                   C-EUC0805                      C0805            rcl            9
+C93      100n                   C-EUC0805                      C0805            rcl            9
+C94      10p                    C-EUC0805                      C0805            rcl            10
+C95      220u                   CPOL-EUE2.5-6                  E2,5-6           rcl            10
+C96      100n                   C-EUC0805                      C0805            rcl            10
+C97      220u                   CPOL-EUE2.5-6                  E2,5-6           rcl            10
+C98      220u                   CPOL-EUE2.5-6                  E2,5-6           rcl            10
+C99      100n                   C-EUC0805                      C0805            rcl            10
+C100     100n                   C-EUC0805                      C0805            rcl            10
+C101     22p                    C-EUC0805                      C0805            rcl            10
+C102     100n                   C-EUC0805                      C0805            rcl            22
+C103     100n                   C-EUC0805                      C0805            rcl            10
+C104     100n                   C-EUC0805                      C0805            rcl            10
+C105     100n                   C-EUC0805                      C0805            rcl            23
+C107     100n                   C-EUC0805                      C0805            rcl            22
+C108     22n                    C-EUC0805                      C0805            rcl            11
+C109     100n                   C-EUC0805                      C0805            rcl            11
+C110     100n                   C-EUC0805                      C0805            rcl            12
+C111     100n                   C-EUC0805                      C0805            rcl            12
+C112     100n                   C-EUC0805                      C0805            rcl            12
+C113     100n                   C-EUC0805                      C0805            rcl            13
+C114     100n                   C-EUC0805                      C0805            rcl            13
+C115     100n                   C-EUC0805                      C0805            rcl            13
+C116     100n                   C-EUC0805                      C0805            rcl            13
+C117     100n                   C-EUC0805                      C0805            rcl            13
+C118     100n                   C-EUC0805                      C0805            rcl            16
+C121     1u                     C-EUC0805                      C0805            rcl            17
+C123     47p                    C-EUC0805                      C0805            rcl            17
+C124     1u                     C-EUC0805                      C0805            rcl            17
+C125     47p                    C-EUC0805                      C0805            rcl            17
+C126     47p                    C-EUC0805                      C0805            rcl            17
+C127     47p                    C-EUC0805                      C0805            rcl            17
+C128     100n                   C-EUC0805                      C0805            rcl            17
+C129     100n                   C-EUC0805                      C0805            rcl            17
+C130     100n                   C-EUC0805                      C0805            rcl            17
+C131     22p                    C-EUC0805                      C0805            rcl            17
+C132     22p                    C-EUC0805                      C0805            rcl            17
+C133     22p                    C-EUC0805                      C0805            rcl            17
+C134     22p                    C-EUC0805                      C0805            rcl            17
+C135     100n                   C-EUC0805                      C0805            rcl            17
+C136     100n                   C-EUC0805                      C0805            rcl            17
+C137     100n                   C-EUC0805                      C0805            rcl            17
+C138     100n                   C-EUC0805                      C0805            rcl            17
+C139     100n                   C-EUC0805                      C0805            rcl            17
+C140     100n                   C-EUC0805                      C0805            rcl            17
+C141     100n                   C-EUC0805                      C0805            rcl            17
+C142     100n                   C-EUC0805                      C0805            rcl            17
+C143     100n                   C-EUC0805                      C0805            rcl            17
+C144     100n                   C-EUC0805                      C0805            rcl            17
+C145     100n                   C-EUC0805                      C0805            rcl            17
+C146     100n                   C-EUC0805                      C0805            rcl            23
+C147     220u lESR              CPOL-EUE3.5-10                 E3,5-10          rcl            23
+C157     10n                    C-EUC0805                      C0805            rcl            20
+C158     10n                    C-EUC0805                      C0805            rcl            20
+C159     470n                   C-EUC0805                      C0805            rcl            20
+C160     10u                    CPOL-EUE2.5-6                  E2,5-6           rcl            20
+C161     100n                   C-EUC0805                      C0805            rcl            20
+C162     470n                   C-EUC0805                      C0805            rcl            20
+C163     10n                    C-EUC0805                      C0805            rcl            20
+C164     470n                   C-EUC0805                      C0805            rcl            20
+C165     470n                   C-EUC0805                      C0805            rcl            20
+C166     680p                   C-EUC0805                      C0805            rcl            20
+C167     100n                   C-EUC0805                      C0805            rcl            20
+C168     680p                   C-EUC0805                      C0805            rcl            20
+C169     100n                   C-EUC0805                      C0805            rcl            20
+C170     2n2                    C-EUC0805                      C0805            rcl            20
+C171     2n2                    C-EUC0805                      C0805            rcl            20
+C172     10u                    CPOL-EUE2.5-6                  E2,5-6           rcl            20
+C173     100n                   C-EUC0805                      C0805            rcl            21
+C174     100n                   C-EUC0805                      C0805            rcl            21
+C175     0.33u                  CPOL-EUE2.5-6                  E2,5-6           rcl            21
+C176     0.33u                  CPOL-EUE2.5-6                  E2,5-6           rcl            21
+C177     10n                    C-EUC0805                      C0805            rcl            21
+C178     10n                    C-EUC0805                      C0805            rcl            21
+C179     1u                     CPOL-EUE2.5-6                  E2,5-6           rcl            21
+C180     1u                     C-EUC0805                      C0805            rcl            21
+C181     1u                     C-EUC0805                      C0805            rcl            21
+C182     100p                   C-EUC0805                      C0805            rcl            21
+C183     100p                   C-EUC0805                      C0805            rcl            21
+C184     1u                     CPOL-AUDIOE2/5                 E2-5             rcl            21
+C185     1u                     CPOL-AUDIOE2/5                 E2-5             rcl            21
+C186     100n                   C-EUC0805                      C0805            rcl            21
+C187     100n                   C-EUC0805                      C0805            rcl            21
+C188     47u                    CPOL-EUE5-10.5                 E5-10,5          rcl            21
+C191     20p                    C-EUC0805                      C0805            rcl            22
+C192     20p                    C-EUC0805                      C0805            rcl            22
+C194     100n                   C-EUC0805                      C0805            rcl            22
+C195     1u                     C-EUC0805                      C0805            rcl            22
+C196     10n                    C-EUC0805                      C0805            rcl            23
+C197     100n                   C-EUC0805                      C0805            rcl            23
+C198     10n                    C-EUC0805                      C0805            rcl            23
+C199     10u                    CPOL-EUE2-5                    E2-5             rcl            23
+C200     1000u lESR             CPOL-EUE5-10.5                 E5-10,5          rcl            23
+C201     1000u lESR             CPOL-EUE5-10.5                 E5-10,5          rcl            23
+C202     22uF                   CPOL-EUSMCC                    SMC_C            rcl            23
+C203     100u lowESR            CPOL-EUE2.5-6                  E2,5-6           rcl            23
+C204     100u lowESR            CPOL-EUE2.5-6                  E2,5-6           rcl            23
+D1       1N914                  DIODE-SOD323-R                 SOD323-R         diode          1
+D2       1N914                  DIODE-SOD323-R                 SOD323-R         diode          3
+D3       1N914                  DIODE-SOD323-R                 SOD323-R         diode          8
+D4       SM5817                 SM5817-DO                      DO213AB          F030NG         23
+D5       SM5817                 SM5817-DO                      DO213AB          F030NG         23
+D6       1N914                  DIODE-SOD323-R                 SOD323-R         diode          10
+F1       15V/0.5A               F-1210                         1210             F030NG         18
+F2       6V/0.5A                F-1210                         1210             F030NG         23
+F3       6V/0.5A                F-1206                         1206             F030NG         15
+FB1                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         1
+FB2                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         1
+FB3                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         1
+FB4                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         5
+FB6                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         10
+FB7                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         10
+FB8                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB9                             FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB10                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB11                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB12                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB13                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB14                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB15                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB16                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB17                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB18                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB19                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB20                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB21                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB22                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         18
+FB23                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         20
+FB24                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         20
+FB25                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         15
+FB26                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         15
+FB27                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         15
+FB28                            FB_1806(WB/HS)                 WE-1806(W=5.5)   F030NG         15
+GND                             MOUNT_FDD                      MOUNTPADS_FDD    F030NG         25
+H1       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+H2       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+H3       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+H4       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+H5       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+H6       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+H7       MOUNT-PAD-ROUND3.2D3.2 MOUNT-PAD-ROUND3.2D3.2         3,2-PAD          F030NG         25
+J1                              RJ-12_CONN                     TE_RJ12GE-AMP    F030NG         1
+J2       MIDI OUT               MIDI                           MAB5SH           F030NG         1
+J3       MIDI IN                MIDI                           MAB5SH           F030NG         1
+J4       PARALLEL-DB25F         PARALLEL-DB25F                 DB25F            F030NG         1
+J5                              KEYBOARD                       PH_KEYBOARD      F030NG         1
+J6                              SIMM72-VERT                    TE_5822021-4     F030NG         4
+J7       RCA_SOCKET             RCA_SOCKET                     KEYS938          F030NG         10
+J8       IDE_CONN-CF            IDE_CONN-CF                    CF_IDE           F030NG         7
+J9       SERIAL-DB9             SERIAL-DB9                     DB9M             F030NG         9
+J10      VGA-REG                VGA-REG                        DB15F            F030NG         10
+J11      MINI_DIN4P             MINI_DIN4P                     MINI_DIN4P       F030NG         10
+J12      SCSI                   SCSI_CONN_INTCOM               PH_2X25_COMBI    F030NG         11
+J13      FDD_CONNCOM            FDD_CONNCOM                    PH_2X17_COMBI    F030NG         12
+J14                             ROM_INTERFACE                  PH_ROM_PORT      F030NG         14
+J15                             CPU_EXP_PORT                   PH_CPU_EXP_PORT  F030NG         16
+J16      0862-1JX1-43-F         RJ45_DUAL-USB                  JY0-0016         F030NG         17
+J17      DSP_PORT-DB26F         DSP_PORT-DB26F                 DB26F            F030NG         18
+J18      MIC                    3.5MM_SOCKET3P                 JY039-3P         F030NG         21
+J19      SPKR                   3.5MM_SOCKET3P                 JY039-3P         F030NG         21
+J20      POWER_CONN-8P          POWER_CONN-8P                  MOLEX_09-65-2088 F030NG         23
+J21      TE_171825-4            FDD_CONN_PWR                   TE_171825-4      F030NG         23
+J22                             JUMPER-2P                      PH_1X02          F030NG         8
+J23      FAN_PWR                22-23-2021                     22-23-2021       con-molex      23
+J24                             40PCART_NEWMEC2-20-01-L-DV-NP  40PCART_SAMTEC   F030NG         15
+J26      5530843-5              5530843-5                      55308435         SamacSys_Parts 19
+L1       1uH                    L-1210                         L1210            F030NG         1
+L2       1uH                    L-1210                         L1210            F030NG         1
+L3       1uH                    L-1210                         L1210            F030NG         1
+L4       1uH                    L-1210                         L1210            F030NG         1
+L5       NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L6       NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L7       NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L8       NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L9       NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L10      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L11      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L12      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L13      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L14      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L15      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L16      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         1
+L17      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L18      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L19      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L20      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L21      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L22      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L23      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L24      NFM41CC222R2A3L        LCL1806                        NFM41C           F030NG         9
+L25      1uH                    L-1210                         L1210            F030NG         1
+L26      1uH                    L-1210                         L1210            F030NG         1
+L27      100uH                  L-1210                         L1210            F030NG         23
+L28      100uH                  L-1210                         L1210            F030NG         23
+L29      4u7                    L-1210                         L1210            F030NG         23
+L30      68uH                   L-1210                         L1210            F030NG         10
+LED1     LTST-C171KSKT          LEDCHIPLED_0805                CHIPLED_0805     led            8
+LED2     LTST-C171KSKT          LEDCHIPLED_0805                CHIPLED_0805     led            8
+LED4     LTST-C171KGKT          LEDCHIPLED_0805                CHIPLED_0805     led            8
+P1       8x10k                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         6
+P2       8x10k                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         6
+P3       8x4k7                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         7
+P4       8x4k7                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         7
+P5       220/330                CTS766                         SO14             F030NG         11
+P6       220/330                CTS766                         SO14             F030NG         11
+P7       8x1k                   R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         12
+P8       8x4k7                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         14
+P9       8x4k7                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         14
+P10      8x4k7                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         14
+P11      8x10k                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         14
+P12      8x10k                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         14
+P13      4x10k                  R-ARRAY_4RCTS-774-8NS          CTS-774-8NS      F030NG         16
+P14      8x1k2                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         16
+P15      8x47k                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         18
+P16      8x47k                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         18
+P17      8x68R                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         18
+P18      8x68R                  R-ARRAY_8R742-16NS             CTS-742-16NS     F030NG         18
+P20      8x10k                  R-ARRAY_4RCTS-774-8NS          CTS-774-8NS      F030NG         22
+P21      22                     R-ARRAY_4RCTS-774-8NS          CTS-774-8NS      F030NG         17
+Q1       2.4576M                CRYSTAL_RESONATOR_UNSHILELDEDU HC49U            F030NG         1
+Q2       32.768kHZ              CRYSTALTC26V                   TC26V            crystal        8
+Q3       3.6864M                CRYSTAL_OSCILLATORSMD          SM77H            F030NG         22
+Q4       20M                    CRYSTAL_RESONATOR_UNSHILELDEDU HC49U            F030NG         17
+Q5       6M                     CRYSTAL_RESONATOR_UNSHILELDEDU HC49U            F030NG         17
+Q6       14.7456M               CRYSTAL_RESONATOR_UNSHILELDEDU HC49U            F030NG         22
+Q7       32.084988M             CRYSTAL_OSCILLATOR14SS         DIL14S-SOCKETED  F030NG         22
+Q8       25.175M                CRYSTAL_OSCILLATOR8S           DIL08S           F030NG         22
+Q9       VAR                    CRYSTAL_OSCILLATORSS           DIL08S-SOCKETED  F030NG         22
+R1       220                    R-EU_R0805                     R0805            rcl            1
+R2       33                     R-EU_R0805                     R0805            rcl            1
+R3       4k7                    R-EU_R0805                     R0805            rcl            1
+R4       4k7                    R-EU_R0805                     R0805            rcl            1
+R5       1k                     R-EU_R0805                     R0805            rcl            1
+R6       4k7                    R-EU_R0805                     R0805            rcl            1
+R7       1k                     R-EU_R0805                     R0805            rcl            1
+R8       4k7                    R-EU_R0805                     R0805            rcl            1
+R9       3k3                    R-EU_R0805                     R0805            rcl            1
+R10      4k7                    R-EU_R0805                     R0805            rcl            1
+R11      4k7                    R-EU_R0805                     R0805            rcl            1
+R12      4k7                    R-EU_R0805                     R0805            rcl            1
+R13      4k7                    R-EU_R0805                     R0805            rcl            1
+R14      3k3                    R-EU_R0805                     R0805            rcl            1
+R15      10k                    R-EU_R0805                     R0805            rcl            1
+R16      220                    R-EU_R0805                     R0805            rcl            1
+R17      220                    R-EU_R0805                     R0805            rcl            1
+R18      220                    R-EU_R0805                     R0805            rcl            1
+R19      220                    R-EU_R0805                     R0805            rcl            1
+R20      220                    R-EU_R0805                     R0805            rcl            1
+R21      4k7                    R-EU_R0805                     R0805            rcl            2
+R22      4k7                    R-EU_R0805                     R0805            rcl            2
+R23      4k7                    R-EU_R0805                     R0805            rcl            2
+R24      4k7                    R-EU_R0805                     R0805            rcl            2
+R25      4k7                    R-EU_R0805                     R0805            rcl            2
+R26      10k                    R-EU_R0805                     R0805            rcl            2
+R27      4k7                    R-EU_R0805                     R0805            rcl            2
+R28      4k7                    R-EU_R0805                     R0805            rcl            2
+R29      10k                    R-EU_R0805                     R0805            rcl            2
+R30      10k                    R-EU_R0805                     R0805            rcl            2
+R31      10k                    R-EU_R0805                     R0805            rcl            22
+R32      4k7                    R-EU_R0805                     R0805            rcl            3
+R33      220                    R-EU_R0805                     R0805            rcl            3
+R34      1k                     R-EU_R0805                     R0805            rcl            3
+R35      220                    R-EU_R0805                     R0805            rcl            3
+R36      1k                     R-EU_R0805                     R0805            rcl            3
+R37      4k7                    R-EU_R0805                     R0805            rcl            3
+R38      1k                     R-EU_R0805                     R0805            rcl            3
+R39      5R6                    R-EU_R0805                     R0805            rcl            3
+R40      66                     R-EU_R0805                     R0805            rcl            3
+R41      66                     R-EU_R0805                     R0805            rcl            3
+R42      66                     R-EU_R0805                     R0805            rcl            3
+R43      66                     R-EU_R0805                     R0805            rcl            3
+R44      33                     R-EU_R0805                     R0805            rcl            3
+R45      33                     R-EU_R0805                     R0805            rcl            3
+R46      33                     R-EU_R0805                     R0805            rcl            14
+R47      66                     R-EU_R0805                     R0805            rcl            3
+R48      66                     R-EU_R0805                     R0805            rcl            3
+R49      66                     R-EU_R0805                     R0805            rcl            3
+R50      66                     R-EU_R0805                     R0805            rcl            3
+R51      33                     R-EU_R0805                     R0805            rcl            3
+R52      33                     R-EU_R0805                     R0805            rcl            3
+R53      66                     R-EU_R0805                     R0805            rcl            3
+R54      66                     R-EU_R0805                     R0805            rcl            3
+R55      66                     R-EU_R0805                     R0805            rcl            3
+R56      33                     R-EU_R0805                     R0805            rcl            3
+R57      33                     R-EU_R0805                     R0805            rcl            3
+R58      33                     R-EU_R0805                     R0805            rcl            3
+R59      33                     R-EU_R0805                     R0805            rcl            3
+R60      33                     R-EU_R0805                     R0805            rcl            3
+R61      33                     R-EU_R0805                     R0805            rcl            3
+R62      10k                    R-EU_R0805                     R0805            rcl            3
+R63      33                     R-EU_R0805                     R0805            rcl            3
+R64      33                     R-EU_R0805                     R0805            rcl            3
+R65      220                    R-EU_R0805                     R0805            rcl            3
+R66      75                     R-EU_R0805                     R0805            rcl            3
+R67      75                     R-EU_R0805                     R0805            rcl            3
+R68      75                     R-EU_R0805                     R0805            rcl            3
+R69      220                    R-EU_R0805                     R0805            rcl            5
+R70      4k7                    R-EU_R0805                     R0805            rcl            5
+R71      10k                    R-EU_R0805                     R0805            rcl            7
+R72      3k9                    R-EU_R0805                     R0805            rcl            7
+R73      10k                    R-EU_R0805                     R0805            rcl            8
+R74      75                     R-EU_R0805                     R0805            rcl            10
+R75      1k                     R-EU_R0805                     R0805            rcl            8
+R76      1k                     R-EU_R0805                     R0805            rcl            8
+R77      47k                    R-EU_R0805                     R0805            rcl            10
+R78      1k                     R-EU_R0805                     R0805            rcl            8
+R79      75                     R-EU_R0805                     R0805            rcl            10
+R80      4k7                    R-EU_R0805                     R0805            rcl            9
+R81      4k7                    R-EU_R0805                     R0805            rcl            9
+R82      75                     R-EU_R0805                     R0805            rcl            10
+R83      33                     R-EU_R0805                     R0805            rcl            4
+R84      10k                    R-EU_R0805                     R0805            rcl            17
+R85      10k                    R-EU_R0805                     R0805            rcl            22
+R88      47                     R-EU_R0805                     R0805            rcl            12
+R89      47                     R-EU_R0805                     R0805            rcl            12
+R90      47                     R-EU_R0805                     R0805            rcl            12
+R91      47                     R-EU_R0805                     R0805            rcl            12
+R92      1k                     R-EU_R0805                     R0805            rcl            12
+R93      1k                     R-EU_R0805                     R0805            rcl            12
+R94      1k                     R-EU_R0805                     R0805            rcl            12
+R95      1k                     R-EU_R0805                     R0805            rcl            12
+R96      220                    R-EU_R0805                     R0805            rcl            13
+R97      220                    R-EU_R0805                     R0805            rcl            13
+R98      220                    R-EU_R0805                     R0805            rcl            13
+R99      220                    R-EU_R0805                     R0805            rcl            13
+R100     4k7                    R-EU_R0805                     R0805            rcl            13
+R101     1k                     R-EU_R0805                     R0805            rcl            13
+R102     1k                     R-EU_R0805                     R0805            rcl            13
+R103     1k                     R-EU_R0805                     R0805            rcl            13
+R104     1k                     R-EU_R0805                     R0805            rcl            13
+R105     4k7                    R-EU_R0805                     R0805            rcl            13
+R106     2k2                    R-EU_R0805                     R0805            rcl            13
+R107     1k                     R-EU_R0805                     R0805            rcl            13
+R108     1k                     R-EU_R0805                     R0805            rcl            14
+R109     1M                     R-EU_R0805                     R0805            rcl            17
+R111     220                    R-EU_R0805                     R0805            rcl            17
+R117     1k                     R-EU_R0805                     R0805            rcl            17
+R118     1k                     R-EU_R0805                     R0805            rcl            17
+R119     1k                     R-EU_R0805                     R0805            rcl            17
+R120     10k                    R-EU_R0805                     R0805            rcl            17
+R121     10k                    R-EU_R0805                     R0805            rcl            17
+R122     10k                    R-EU_R0805                     R0805            rcl            17
+R123     10k                    R-EU_R0805                     R0805            rcl            17
+R124     10k                    R-EU_R0805                     R0805            rcl            17
+R126     10k                    R-EU_R0805                     R0805            rcl            17
+R137     10k                    R-EU_R0805                     R0805            rcl            20
+R138     150                    R-EU_R0805                     R0805            rcl            20
+R139     150                    R-EU_R0805                     R0805            rcl            20
+R140     1k                     R-EU_R0805                     R0805            rcl            20
+R141     150                    R-EU_R0805                     R0805            rcl            20
+R142     10k                    R-EU_R0805                     R0805            rcl            20
+R143     2k                     R-EU_R0805                     R0805            rcl            21
+R144     2k                     R-EU_R0805                     R0805            rcl            21
+R145     2k                     R-EU_R0805                     R0805            rcl            21
+R146     2k                     R-EU_R0805                     R0805            rcl            21
+R147     40k                    R-EU_R0805                     R0805            rcl            21
+R148     40k                    R-EU_R0805                     R0805            rcl            21
+R149     20k                    R-EU_R0805                     R0805            rcl            21
+R150     20k                    R-EU_R0805                     R0805            rcl            21
+R151     1M                     R-EU_R0805                     R0805            rcl            21
+R152     1M                     R-EU_R0805                     R0805            rcl            21
+R153     1M                     R-EU_R0805                     R0805            rcl            21
+R154     1M                     R-EU_R0805                     R0805            rcl            21
+R155     10k                    R-EU_R0805                     R0805            rcl            21
+R156     10k                    R-EU_R0805                     R0805            rcl            21
+R157     10k                    R-EU_R0805                     R0805            rcl            21
+R158     10k                    R-EU_R0805                     R0805            rcl            21
+R159     100k                   R-EU_R0805                     R0805            rcl            21
+R160     100k                   R-EU_R0805                     R0805            rcl            21
+R161     22                     R-EU_R0805                     R0805            rcl            22
+R162     22                     R-EU_R0805                     R0805            rcl            22
+R163     22                     R-EU_R0805                     R0805            rcl            22
+R164     22                     R-EU_R0805                     R0805            rcl            22
+R165     22                     R-EU_R0805                     R0805            rcl            22
+R166     22                     R-EU_R0805                     R0805            rcl            22
+S1                              DIP_SW_8PSPST                  CTS-214-08/SPST  F030NG         6
+S2                              DIP_SW_8PSPST                  CTS-214-08/SPST  F030NG         6
+S3                              DIP_SW_2PSPST                  CTS-214-02/SPST  F030NG         6
+S4                              31-XX                          B3F-31XX         switch-omron   8
+S5                              DIP_SW_2PSPST                  CTS-214-02/SPST  F030NG         17
+S6                              DIP_SW_3P                      CTS-214-03/SPST  F030NG         22
+S7                              DIP_SW_2PSPST                  CTS-214-02/SPST  F030NG         22
+SJ1                             HALFMOONS_1X3                  HALFMOONS_1X3    F030NG         17
+T1       MFET-P                 MOSFET-P                       SOT23            F030NG         17
+T2       MFET-P                 MOSFET-P                       SOT23            F030NG         17
+U1       MC68B50                MC68B50                        PLCC28           F030NG         1
+U2       MC68B50                MC68B50                        PLCC28           F030NG         1
+U3       YM3439                 YM3439-QFP44                   PQFP44           F030NG         1
+U4       MC68901FN              MC68901FN-PLCC52               PLCC52           F030NG         1
+U5       74LS06-SO14            74LS06-SO14                    SO14             F030NG         1
+U6       TLP291                 OPTO_COUPLER-SO4               SO04             F030NG         1
+U7       74HCT04                74HCT04                        SO14MY           74xx-eu        1
+U8       MC1489                 MC1489                         SO14             F030NG         1
+U9       MC68882                MC68882-PLCC68S                PLCC68S          F030NG         2
+U10      MC68030FE              MC68030FE-MQFP132              MQFP132          F030NG         2
+U11      COMBEL                 COMBEL-TQFP208/05              TQFP208-05       F030NG         3
+U12      VIDEL                  VIDEL-QFP120                   QFP120           F030NG         3
+U13      STV8438CV              SGC_DAC                        PQFP44           F030NG         3
+U14      S-DMA                  S-DMA                          CQFP144          F030NG         5
+U15      74ACT244D              74ACT244D(W)                   SOIC20           F030NG         6
+U16      74ACT244D              74ACT244D(W)                   SOIC20           F030NG         6
+U17      LM555-SO08             LM555-SO08                     SO08             F030NG         8
+U18      74LVC1G04              74LVC1G04                      SOT23-5          F030NG         8
+U19      DS12885D               DS12885-SO24                   SOIC24           F030NG         8
+U20      AM85C30                AM85C30                        PLCC44           F030NG         9
+U21      MC1489                 MC1489                         SO14             F030NG         9
+U22      MC1488                 MC1488-SO                      SO14             F030NG         9
+U23      AD725                  AD725D                         SOIC16           F030NG         10
+U24      L53C80                 L53C80JC2-PLCC44               PLCC44           F030NG         11
+U25      WD1772                 AJAX                           DIL28            F030NG         12
+U26      7406                   7406-SO14                      SO14             F030NG         12
+U27      AM26LS31               AM26LS31                       SO16             F030NG         12
+U28      GAL16V8-PLCC           GAL16V8-PLCC                   PLCC20           F030NG         13
+U29      GAL16V8-PLCC           GAL16V8-PLCC                   PLCC20           F030NG         13
+U30      GAL16V8-PLCC           GAL16V8-PLCC                   PLCC20           F030NG         13
+U31      GAL16V8-PLCC           GAL16V8-PLCC                   PLCC20           F030NG         13
+U32      GAL20V8-PLCC           GAL20V8-PLCC                   PLCC28           F030NG         13
+U33      AT93C46D               AT93C46BD                      SO08             F030NG         17
+U34      ISP1160                ISP1160                        LQFP64           F030NG         17
+U35      RTL8019AS              RTL8019AS                      PQFP100          F030NG         17
+U36      74ALS574D              74HCT574D                      SO20             F030NG         17
+U37      74LS245D               74LS245D                       SO20             F030NG         17
+U38      74LVC1G04              74LVC1G04                      SOT23-5          F030NG         22
+U40      CS4218                 CS4218-TQFP                    TQFP44           F030NG         20
+U41      LM4881                 LM4881-SOIC                    SO08             F030NG         21
+U42      MAX4469EKA+T           MAX4469EKA+T                   SOT23-8          F030NG         21
+U44      CY2292                 CY2292                         SO16             F030NG         22
+U45      MAX743CPE              MAX743CPE-SO                   SOIC16           F030NG         23
+U47      74LS08                 7408                           SO14MY           74xx-eu        1
+U48      74LS00                 74LS00D                        SO14MY           74xx-eu        17
+U51      74LVC2G3157DPJ         74LVC2G3157DPJ                 TSSOP10-X        F030NG         22

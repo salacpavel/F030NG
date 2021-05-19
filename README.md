@@ -3,7 +3,7 @@ A ground-up remake of famous Atari Falcon 030 hardware, using contemporary compo
 It aims to fix outstanding stability issues of original Falcon and introduces number of changes and exciting new features, such as
 - **New form factor**, closer to never released Atari Microbox030
 - ~~Incorporates much, **much faster DSP with four times more on-board memory**~~ Due to identified incompatibilities of MC56303 DSP, on-board implementation of the DSP processor has been omitted in favour of expansion slot with all DSP signals on it. This enables development and use of DSP based plug-in boards in different configurations and forms, such as advanced digital sound cards, data processors, oscilloscopes, etc. Basic form of plug/in board will have MC56001 on it.
-- Replaces fixed TOS ROM socket with swappable add-on modules, what gives room for flash memory based TOS switchers etc.
+- Replaces fixed TOS/ROM socket with swappable add-on modules, what gives room for flash memory based TOS switchers etc.
 - IDE port is relocated to allow simple use of cheap and ubiquitous CF-IDE adaptors, with CF conveniently accessible from the outside of the computer. Internal PATA laptop HDD is still an option
 - External SCSI replaced with standard **internal 50 pin SCSI interface**. External port can be added with simple breakout board
 - Removes two STE jagpad ports to save some space and simplify motherboard design

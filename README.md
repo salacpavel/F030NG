@@ -12,7 +12,7 @@ It aims to fix outstanding stability issues of original Falcon and introduces nu
 - **Redesigned TV-out circuit** is now based on more recent AD725 chip, providing higher quality output. S-Video output is now supported as well.
 - Completely remade board power distribution to avoid need for most of leaky electrolytic capacitors. The rest of them is radial now, due to space and obsolescence concerns.
 - **HiFi audio** components used for audio-in and audio-out
-- Failing NVRAM chip replaced with more recent DS12885 backed by common replaceable CR1223 coin cell
+- Failing NVRAM chip replaced with more recent DS12885 backed by common replaceable CR1220 coin cell
 - External and internal keyboard connectors
 - Proprietary Atari 19-pin video connector replaced with common **VGA interface**. Now you can plug your VGA monitor directly, without a need for a convertor.
 - Onboard implementation of NetUSB adds **one 10-mbit LAN port and two USB ports** (with number of USB devices currently supported)

@@ -9,7 +9,7 @@ It aims to fix outstanding stability issues of original Falcon and introduces nu
 - Removes two STE jagpad ports to save some space and simplify motherboard design
 - ~~Expands internal expansion connector for additional pins to allow more different devices to be build, such as test and diagnostics cart (TBD), while still maintaining full compatibility with CT60(e) accelerator~~ no longer necessary, see below
 - ~~Removes legacy cartridge interface due to general unavailability of replacement edge board connectors~~ Unobtainable legacy cartridge port edge card connector has been replaced with compatible replacement PCB/connector assebmbly
-- **Newly designed TV-out circuit** is now based on more recent AD725 chip, providing higher quality output. S-Video output is now supported as well.
+- **Redesigned TV-out circuit** is now based on more recent AD725 chip, providing higher quality output. S-Video output is now supported as well.
 - Completely remade board power distribution to avoid need for most of leaky electrolytic capacitors. The rest of them is radial now, due to space and obsolescence concerns.
 - **HiFi audio** components used for audio-in and audio-out
 - Failing NVRAM chip replaced with more recent DS12885 backed by common replaceable CR1223 coin cell

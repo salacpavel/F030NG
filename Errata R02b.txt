@@ -1,0 +1,5 @@
+Q3:silkscreen value to be corrected to 3.672MHz. Possible technology change to 5V/DIL14 packaging (can be programmed from blanks)
+Q6:silkscreen value to be corrected to 17.734476MHz (PAL version)
+Q1:technology change from HC-49/S to HC-49/U, as short version is simply unavailable. Affects silkscreen only.
+P1-4,7-12,14-18: for future revisions, split to 4xresistor packs
+Q2: possibly change to SMT technology
